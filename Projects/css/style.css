@@ -1,0 +1,56 @@
+body{
+	min-width: 400px;
+	max-width: 1024px;
+	margin: 0px auto;
+}
+
+header, main, nav, section, footer{
+	border: none;
+}
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+	width: 23%;
+	display: inline-block;
+}
+
+section ul{
+	text-align: center;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+section ul li{
+	width: 30%;
+	display: inline-block;
+}
+
+section ul li img{
+}
+
+/* unvisited link */
+a:link {
+    color: Black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
